@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 plt.style.use( 'dark_background' )
 
-import src.python_tools.cities_lat_long
+from src.python_tools import cities_lat_long
 
 time_handler = {
 	'seconds': { 'coeff': 1.0,        'xlabel': 'Time (seconds)' },
