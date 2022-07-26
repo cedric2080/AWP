@@ -14,8 +14,8 @@ import numpy    as np
 import spiceypy as spice
 
 # AWP library
-import orbit_calculations as oc
-import ode_tools          as ot
+import src.python_tools.orbit_calculations as oc
+import src.python_tools.ode_tools          as ot
 
 r2d     = 180.0 / np.pi
 d2r     = 1.0  / r2d

@@ -12,11 +12,11 @@ from numpy import arange
 import spiceypy as spice
 
 # AWP libraries
-from Spacecraft import Spacecraft as SC
-import numerical_tools as nt
-import plotting_tools  as pt
-import spice_data      as sd
-from planetary_data import earth
+from src.python_tools.Spacecraft import Spacecraft as SC
+import src.python_tools.numerical_tools as nt
+import src.python_tools.plotting_tools  as pt
+import src.python_tools.spice_data      as sd
+from src.python_tools.planetary_data import earth
 
 if __name__ == '__main__':
 	spice.furnsh( sd.pck00010 )

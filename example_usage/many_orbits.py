@@ -11,9 +11,9 @@ from sys import path
 path.append( '../src/python_tools' )
 
 # AWP libraries
-from Spacecraft import Spacecraft as SC
-from planetary_data import earth
-import plotting_tools as pt
+from src.python_tools.Spacecraft import Spacecraft as SC
+from src.python_tools.planetary_data import earth
+import src.python_tools.plotting_tools as pt
 
 # 3rd party libraries
 import numpy as np

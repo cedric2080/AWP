@@ -8,13 +8,13 @@ Class Definition
 '''
 
 # AWP library
-from Spacecraft import Spacecraft as SC
-import orbit_calculations as oc
-import planetary_data     as pd
-import lamberts_tools     as lt
-import numerical_tools    as nt
-import spice_tools        as st
-import plotting_tools     as pt
+from src.python_tools.Spacecraft import Spacecraft as SC
+import src.python_tools.orbit_calculations as oc
+import src.python_tools.planetary_data     as pd
+import src.python_tools.lamberts_tools     as lt
+import src.python_tools.numerical_tools    as nt
+import src.python_tools.spice_tools        as st
+import src.python_tools.plotting_tools     as pt
 import spiceypy           as spice
 import numpy              as np
 
