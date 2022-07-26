@@ -11,3 +11,6 @@ src/**/*.pdf
 
 # book images
 book/**/*.png
+
+.eggs/
+AWP.egg-info/
