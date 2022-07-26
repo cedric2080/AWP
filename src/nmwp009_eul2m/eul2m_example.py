@@ -4,10 +4,13 @@ Print Symbolic Euler Angle Rotation Matrix
 
 # built-in Python library
 from sys import path
-path.append( '/home/alfonso/AWP/python_tools' )
 
 # personal libraries
-import plotting_tools as pt
+# TODO
+# this can be proficiently replaced by a
+# from python_tools import plotting_tools as pt
+# as soon as the python_tools has been refactored and installed as module
+from src.awp_tools import plotting_tools as pt
 
 # 3rd party library
 import spiceypy as spice

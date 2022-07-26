@@ -33,3 +33,6 @@ fi
 
 $echo_e "${GREINV}Deploying environment $envchosen ${NC}"
 ./run-devloc-set-env.sh $envchosen
+
+# TODO
+# include a make python tools and install it using pip

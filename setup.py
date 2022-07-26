@@ -18,4 +18,6 @@ setup(
     },
     setup_requires=["setuptools_scm"],
     #entry_points={"console_scripts": ["python = app.run:main"]},
+    # TODO
+    # exclude all directories except src/python_tools
 )

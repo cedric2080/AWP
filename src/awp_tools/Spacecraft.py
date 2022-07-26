@@ -18,11 +18,11 @@ import matplotlib.pyplot as plt
 plt.style.use( 'dark_background' )
 
 # AWP libraries
-import src.python_tools.orbit_calculations as oc
-import src.python_tools.numerical_tools    as nt
-import src.python_tools.plotting_tools     as pt
-import src.python_tools.planetary_data     as pd
-import src.python_tools.spice_data         as sd
+import src.awp_tools.orbit_calculations as oc
+import src.awp_tools.numerical_tools    as nt
+import src.awp_tools.plotting_tools     as pt
+import src.awp_tools.planetary_data     as pd
+import src.awp_tools.spice_data         as sd
 
 def null_config():
 	return {

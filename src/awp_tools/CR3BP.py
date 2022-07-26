@@ -11,8 +11,8 @@ from scipy.integrate import solve_ivp
 import numpy as np
 
 # AWP libraries
-import src.python_tools.numerical_tools as nt
-import src.python_tools.plotting_tools  as pt
+import src.awp_tools.numerical_tools as nt
+import src.awp_tools.plotting_tools  as pt
 
 def null_args():
 	return {
