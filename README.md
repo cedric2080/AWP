@@ -84,3 +84,11 @@ $ python3 -m pytest src/python_tools/unit_tests/ -vv
 ```
 
 The only difference between those two commands is that running `pytest` through the Python interpreter is that `python` [will add your current directory to sys.path](https://docs.pytest.org/en/6.2.x/usage.html#cmdline)
+
+## Automatic run
+
+Some bash helper scripts are present in order to automate the Python virtual environment creation and configuration, leveraging setup.
+* run-devloc-all.sh: chain all the scripts, to be run at first usage
+  * run-devloc-deploy
+  * run-devloc-set-env
+* run-devloc-app.sh: run an example from the test (default to Spacecraft_hello_world)
